@@ -10,13 +10,11 @@ class HomePage extends StatelessWidget {
     const int day = 4;
     return Scaffold(
       appBar: AppBar(
-        title: const Center(
-            child: Text(
-          "Catalog App",
-          textDirection: TextDirection.ltr,
-          textAlign: TextAlign.center,
-        )),
-      ),
+          title: Text(
+        "Catalog App",
+        textDirection: TextDirection.ltr,
+        textAlign: TextAlign.center,
+      )),
       body: const Center(
           child: Text(
         "Welcome to day $day of flutter",
